@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.26)
+set(CMAKE_CXX_STANDARD 20)
+project(system_hpp)
+include_directories(../../../module/system)
+add_executable(a main.cpp)
